@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+header {
+    background-image: url("../assets/img/main_banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav #logo a img {
+    height: 58px;
+    width: 300px;
+}
+
+nav .menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav .menu ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav .menu ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#blurb {
+    margin-top: 40em;
+}
+
+#blurb .banner-title {
+    text-transform: uppercase;
+    font-size: 96px;
+    font-weight: 800;
+    color: #88EBF2;
+}
+
+#blurb .banner-subtitle {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0.84em;
+}
