@@ -25,9 +25,13 @@
         justify-content: space-between;
     }
     
-    nav #logo a img {
+    .logo {
         height: 58px;
         width: 300px;
+    }
+    
+    .bold {
+        font-weight: 600;
     }
     
     nav .menu ul {
@@ -100,15 +104,15 @@
         text-align: center;
     }
     
+    #services .card-container.clearfix {
+        overflow: auto;
+    }
+    
     #services .card-container .card {
         width: 300px;
         float: left;
         margin: 0 15px 0 15px;
         padding: 1em 0 2.150em 0;
-    }
-    
-    #services .card-container .card.card-1 {
-        background-color: #FFCCCB;
     }
     
     #services .card-container .card img {
@@ -127,4 +131,34 @@
         font-size: 14px;
         font-weight: 400;
         text-align: left;
+    }
+    
+    footer {
+        background-color: #88EBF2;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        width: 100%;
+    }
+    
+    footer #footer-content {
+        width: 960px;
+        border: 1px solid red;
+        margin: 0 auto 0 auto;
+    }
+    
+    footer #subfooter {
+        background-color: #60A3A9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 20px 0
+    }
+    
+    footer #subfooter .subfooter-content {
+        width: 960px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-transform: uppercase;
     }
