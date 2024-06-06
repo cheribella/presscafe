@@ -147,6 +147,40 @@
         margin: 0 auto 0 auto;
     }
     
+    footer #footer-content .details {}
+    
+    footer #footer-content .tagline {}
+    
+    footer #footer-content .maps {
+        overflow: hidden;
+    }
+    
+    footer #footer-content .maps .city-map {
+        float: left;
+        padding: 1em;
+    }
+    
+    footer #footer-content .maps .city-map img {
+        border: 1px solid black;
+    }
+    
+    footer #footer-content .nav-links {}
+    
+    footer #footer-content .nav-links ul {
+        list-style-type: none;
+        overflow: hidden;
+    }
+    
+    footer #footer-content .nav-links ul li a {
+        float: left;
+        color: black;
+        letter-spacing: 3px;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 12px 16px;
+    }
+    
     footer #subfooter {
         background-color: #60A3A9;
         display: flex;
