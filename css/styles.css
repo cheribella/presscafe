@@ -57,6 +57,7 @@ nav .menu ul li a {
     position: absolute;
     bottom: 10px;
     left: 30px;
+    padding-bottom: 3em;
 }
 
 #blurb h1 {
@@ -152,7 +153,6 @@ footer {
 }
 
 footer #footer-content {
-    border: 1px solid red;
     width: 960px;
     margin: 0 auto;
     padding: 40px 0;
@@ -187,7 +187,6 @@ footer #subfooter .clearfix {
 }
 
 footer #footer-content .card-company-info {
-    border: 1px solid red;
     width: 300px;
     float: left;
     margin-right: auto;
@@ -195,6 +194,7 @@ footer #footer-content .card-company-info {
 
 footer #footer-content .card-company-info p {
     margin: 10px 0;
+    font-size: 14px;
 }
 
 footer #footer-content .card-company-info p:first-of-type {
@@ -202,7 +202,8 @@ footer #footer-content .card-company-info p:first-of-type {
 }
 
 footer #footer-content .card-tagline {
-    border: 1px solid red;
+    float: right;
+    padding: 10px 2.125px;
 }
 
 footer #footer-content .card-tagline .tagline span {
@@ -210,52 +211,49 @@ footer #footer-content .card-tagline .tagline span {
     font-weight: 600;
 }
 
-
-/* footer #footer-content .tagline {
-    border: 1px solid red;
-    float: left;
-}
-
-footer #footer-content .maps {
-    border: 1px solid red;
+footer #footer-content .card-maps .map {
     display: block;
-}
-
-footer #footer-content .maps .city-map {
-    border: 1px solid red;
-}
-
-footer #footer-content .maps .city-map:first-child {
     float: left;
+    margin-left: 30px;
+    width: 300px;
 }
 
-footer #footer-content .maps .city-map:nth-child(2) {
-    float: right;
+footer #footer-content .card-maps .map img {
+    border: 1px solid #0D7076;
+    width: 100%;
 }
 
-footer #footer-content .maps .city-map img {
-    border: 1px solid black;
+footer #footer-content .footer-nav {
+    margin-left: 30px;
+    float: left;
+    width: 630px;
+    align-items: flex-end;
+    width: 630px;
 }
 
-footer #footer-content .nav-links {
-    border: 1px solid red;
+footer #footer-content .footer-nav ul {
+    text-align-last: justify;
+    padding: 10px 0;
 }
 
-footer #footer-content .nav-links ul {
+footer #footer-content .footer-nav ul li {
     list-style-type: none;
+    display: inline-block;
 }
 
-footer #footer-content .nav-links ul li {
-    display: block;
-    float: left;
-    margin: 0 10px
-}
-
-footer #footer-content .nav-links ul li a {
+footer #footer-content .footer-nav ul li a {
     color: black;
-    letter-spacing: 3px;
-    text-decoration: none;
     text-transform: uppercase;
-    text-align: center;
-    padding: 12px 16px;
-} */
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+footer #footer-content .footer-nav ul li a:hover {
+    color: white;
+    font-weight: 500;
+    transition: ease-in-out 0.3s;
+}
+
+footer #footer-content .clearfix {
+    clear: both;
+}
