@@ -17,6 +17,13 @@ header {
     padding: 2em;
 }
 
+header.contact-header {
+    background-image: none;
+    background-color: #695F5D;
+    height: auto;
+    padding-bottom: 2em;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -182,10 +189,6 @@ footer #subfooter .subfooter-content .right {
     float: right;
 }
 
-footer #subfooter .clearfix {
-    clear: both;
-}
-
 footer #footer-content .card-company-info {
     width: 300px;
     float: left;
@@ -233,7 +236,7 @@ footer #footer-content .footer-nav {
 
 footer #footer-content .footer-nav ul {
     text-align-last: justify;
-    padding: 10px 0;
+    padding: 18px 0;
 }
 
 footer #footer-content .footer-nav ul li {
@@ -254,6 +257,57 @@ footer #footer-content .footer-nav ul li a:hover {
     transition: ease-in-out 0.3s;
 }
 
-footer #footer-content .clearfix {
+.clearfix {
     clear: both;
+}
+
+main.contact-main .contact-main-title {
+    background: #DDD9D8;
+    padding: 2.25em 0 2.5em 2.5em;
+}
+
+main.contact-main .contact-main-title h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+main.contact-main {
+    background: #FFFFFF;
+    height: 100%;
+}
+
+main.contact-main .contact-container {
+    height: 100%;
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 5em 0 7em 0;
+}
+
+main.contact-main .contact-container .map-widget {
+    height: 300px;
+    width: 600px;
+    float: left;
+}
+
+main.contact-main .contact-container .map-widget #gmap-canvas {
+    background: none!important;
+    overflow: hidden;
+}
+
+main.contact-main .contact-container .map-widget a {
+    cursor: default;
+    visibility: hidden;
+}
+
+main.contact-main .contact-container .company-info {
+    width: 285px;
+    float: right;
+}
+
+main.contact-main .contact-container .company-info p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
